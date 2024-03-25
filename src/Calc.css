@@ -1,0 +1,35 @@
+/* Calc.css */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.container input[type="text"] {
+    grid-column: span 4;
+}
+
+.container #buttonClear {
+    grid-column: span 4;
+}
+
+.container button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container #button0 {
+    grid-column: span 2;
+}
+
+.container #buttonEqual {
+    grid-column: span 2;
+}
+
+.displayEq {
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #f4f4f4;
+}
